@@ -1,6 +1,6 @@
 const assert = require('chai').assert;
 const io = require('socket.io-client');
-const serverUrl = 'http://localhost:3001';
+const serverUrl = 'http://localhost:3000';
 
 describe('Socket.io test', function() {
   let client1, client2;
